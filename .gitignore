@@ -44,9 +44,18 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+/lib/
+/classes/
+/target/
+/checkouts/
+.lein-deps-sum
+
 .idea/
 .lein-repl-history
+.lein-plugins/
+.lein-failures
 .nrepl-port
-target/
-task02.iml
-test/
